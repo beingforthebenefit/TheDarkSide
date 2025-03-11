@@ -7,12 +7,12 @@ set -e
 git checkout gh-pages
 
 # Merge the master branch into gh-pages
-git merge master
+git merge main
 
 # Push the changes to the remote repository
 git push origin gh-pages
 
-# Check out the master branch again
-git checkout master
+# Check out the main branch again
+git checkout main
 
 echo "Deployment to gh-pages completed successfully."
