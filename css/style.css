@@ -232,12 +232,6 @@ section {
   z-index: 1;
 }
 
-.logo-container {
-  position: relative;
-  margin: 0 auto;
-  overflow: visible;
-}
-
 /* Base text/prism in front */
 .logo-base {
   display: block;
