@@ -198,7 +198,7 @@ body {
 section {
   min-height: 80vh;
   padding: 50px 15% 50px 15%;
-  background-color: #1A1B1D;
+  background-color: #000000;
 }
 
 .separator {
@@ -320,8 +320,19 @@ h1 {
   }
 }
 h2 {
-  font-size: 2rem;
+  color: #ffffff;
+  font-size: 3rem;
+  width: max-content;
+  /* text-shadow:
+    1px 1px 0 red,
+    2px 2px 0 orange,
+    3px 3px 0 yellow,
+    4px 4px 0 green,
+    5px 5px 0 cyan,
+    6px 6px 0 blue,
+    7px 7px 0 violet; */
 }
+
 
 h2#slogan {
   position: absolute;
@@ -332,7 +343,7 @@ h2#slogan {
   font-size: 5vh;
   font-weight: 600;
   color: #ffffff;
-  text-shadow: 0 2px 10px #1A1B1D;
+  text-shadow: none;
   opacity: 0;
   transform: translateY(-45px);
   -webkit-animation: slideY 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;

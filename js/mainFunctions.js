@@ -52,7 +52,7 @@ $(function () {
 // Listener pour chargement adresse mailto
 window.addEventListener("load", function () {
   if (document.getElementById('insertMail')) {
-    let name = "monkeebusinessband";
+    let name = "thedarksideonstage";
     let domain = "gmail.com";
     let subject = "subject=The Dark Side Band";
     let divMail = document.getElementById('insertMail');
@@ -232,11 +232,11 @@ $(function () {
 $(function () {
   $('.facebook').on('click', function(event) {
     event.preventDefault();
-    window.open("https://www.facebook.com/monkeebusinessband/", '_blank');
+    window.open("https://www.facebook.com/darksidelive/", '_blank');
   });
   $('.instagram').on('click', function(event) {
     event.preventDefault();
-    window.open("https://www.instagram.com/monkeebusinessband/", '_blank');
+    window.open("https://www.instagram.com/thedarksideonstage/", '_blank');
   });
 })
 
@@ -264,6 +264,19 @@ $(document).ready(function() {
       }, 600);
       // Update the URL hash without jump
       history.pushState(null, null, this.hash);
+    }
+  });
+});
+
+$(document).ready(function() {
+  const arrowLink = $('#scrollDownArrow');
+  arrowLink.on('click', function(e) {
+    e.preventDefault(); // prevents the "#" from appearing in the URL
+    const nextSection = $('#nextShow');
+    if (nextSection.length) {
+      $('html, body').animate({
+        scrollTop: nextSection.offset().top
+      }, 600);
     }
   });
 });
