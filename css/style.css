@@ -327,7 +327,6 @@ h2 {
     7px 7px 0 violet; */
 }
 
-
 h2#slogan {
   position: absolute;
   text-align: center;
@@ -339,15 +338,27 @@ h2#slogan {
   color: #ffffff;
   text-shadow: none;
   opacity: 0;
-  transform: translateY(-45px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   -webkit-animation: slideY 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;
   animation: slideY 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-  /* background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+}
+
+.pink-floyd-logo {
+  width: 200px;
+  height: auto;
+  max-height: 114px;
+}
+
+.tribute-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .scroll-down {
