@@ -345,6 +345,7 @@ h2#slogan {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
