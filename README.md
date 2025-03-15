@@ -2,6 +2,8 @@
 
 A website for a tribute band to Pink Floyd featuring a dynamic, responsive design and an animated guitar logo.
 
+Hosted at [darksideband.com](https://darksideband.com).
+
 ## Features
 
 #### Responsive Design:
